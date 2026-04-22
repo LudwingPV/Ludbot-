@@ -11,7 +11,7 @@ pinned: false
 
 # LudBot — LangChain Weather & Time Agent
 
-![LudBot Demo](demo.gif)
+![LudBot Demo](https://raw.githubusercontent.com/LudwingPV/Ludbot-/80b98f5/demo.gif.gif)
 
 LudBot is an AI agent built with LangChain and Groq that answers questions about the current time and weather for any city in the world. Ask about San Salvador, Tokyo, New York, Rio de Janeiro — LudBot fetches live data in real time and responds conversationally.
 
@@ -25,15 +25,15 @@ The two tools are a time tool that resolves any city or timezone to the current 
 
 ## Screenshots
 
-![LudBot Greeting](demo1.png)
+![LudBot Greeting](https://raw.githubusercontent.com/LudwingPV/Ludbot-/80b98f5/demo1.png)
 
 The first thing LudBot does when you say hello is introduce itself — it knows it was created by Engineer Ludwing Pacas and immediately tells you what it can do. Short, friendly, and to the point. The agent log panel at the bottom is already active, showing every decision the agent makes even for a simple greeting.
 
-![Global Queries — Tokyo](demo2.png)
+![Global Queries — Tokyo](https://raw.githubusercontent.com/LudwingPV/Ludbot-/80b98f5/demo2.png)
 
 This is where the agent really shows its capability. Asked about Tokyo with no specific instruction on whether to get time or weather, the agent decided on its own to call both tools — first resolving Asia/Tokyo timezone for the current local time, then fetching live weather data for the city. Both results came back and were delivered in a single clean response. The live log panel shows exactly which tools were called, what inputs were passed, and what each tool returned.
 
-![Conversational Awareness — Rio de Janeiro](demo3.png)
+![Conversational Awareness — Rio de Janeiro](https://raw.githubusercontent.com/LudwingPV/Ludbot-/80b98f5/demo3.png)
 
 After delivering results for Rio de Janeiro, the user simply said "Thank you" — and LudBot responded naturally, staying in character without trying to call any tools. This shows the agent understands conversational context, not just task execution. When no tool is needed, it doesn't use one. The agent log confirms this — thinking, then done, with no unnecessary tool calls in between.
 
