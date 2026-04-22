@@ -73,7 +73,7 @@ Open `http://127.0.0.1:7860` in your browser and start chatting.
 
 ## Live Demo
 
-Coming soon on Hugging Face Spaces.
+Live on Hugging Face Spaces: [LudBot](https://huggingface.co/spaces/ludwingpv/LudBot)
 
 ---
 
