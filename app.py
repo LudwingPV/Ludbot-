@@ -78,7 +78,7 @@ with gr.Blocks(theme=gr.themes.Soft(), title="LangChain Agent Bot") as demo:
     gr.Markdown("Ask me: **'What time is it?'** or **'What's the weather in San Salvador?'**")
 
     # Top panel — Chat UI
-    chatbot = gr.Chatbot(height=350, label="Chat")
+    chatbot = gr.Chatbot(height=350, label="Chat", type="messages")
     msg = gr.Textbox(placeholder="Type your message here...", label="You")
     send_btn = gr.Button("Send →", variant="primary")
 
