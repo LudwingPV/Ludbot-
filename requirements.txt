@@ -4,4 +4,3 @@ langchain-core
 gradio
 requests
 python-dotenv
-audioop-lts
